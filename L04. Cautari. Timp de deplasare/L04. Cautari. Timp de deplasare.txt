@@ -1,0 +1,1 @@
+Stiind ca ne deplasam in medie cu 80 km/h si folsind numarul de km intre orase, scrieti un program care sa calculeze timpul de deplasare pe ruta gasita pentru fiecare din cautarile in latime, adancime si cost uniform.

@@ -1,0 +1,4 @@
+Folosind modelul de calcul al costului de la radacina la nodul curent din exemplul cautarii cu cost uniform, adaugati costul la cautarea in latime. Faceti acest lucru pentru harta obisnuita de la curs (am atasat si aici fisierul cu harta).
+Va rog asadar sa afisati la ruta gasita de la cautarea in latime si costul drumului gasit. Ne va ajuta sa putem compara eficienta algoritmilor.
+
+De altfel, va trebui sa adaugam costurile pentru toti algoritmii de cautare in vederea afisarii numarului de km pentru ruta finala. 

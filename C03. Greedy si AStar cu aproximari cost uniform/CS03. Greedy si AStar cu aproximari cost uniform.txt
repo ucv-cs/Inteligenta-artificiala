@@ -1,0 +1,14 @@
+Urmatorul proiect de la curs se refera la implementarea unui program care sa ne permita sa aplicam algoritmii Greedy si A* pentru gasirea rutei de la un oras catre oricare alt oras, nu doar catre Bucuresti, cum am facut pana acum.
+Pentru a putea face acest lucru, avem nevoie de aproximari din orice oras catre oricare alt oras.
+Pentru a obtine astfel de valori h, se va folosi cautarea cu cost uniform pentru a se gasi cel mai scurt drum de la orice oras catre orice alt oras. Numarul de km dat de rutele de la cost uniform va reprezenta chiar valoarea h.
+
+In acest sens, aveti de ales:
+1. Puteti calcula la inceput , inainte de a intra in metoda A*, o matrice h intre oricare doua orase si pe aceasta o utilizati apoi in cadrul algoritmilor Greedy si A*.
+2. Puteti modifica metoda de cost uniform astfel incat sa va intoarca costul drumului intre doua orase (in loc de void, cum e acum) si, de cate ori aveti nevoie de o aproximare intre doua noduri n1 si n2, apelati metoda de cost uniform cu argumentele care va trebuie.
+3. Varianta cea mai putin eleganta - puteti face doua programe:
+3.1 Unul care sa calculeze distantele cu cost uniform intre oricare doua orase si sa le salveze intr-un fisier.
+3.2 Al doilea pentru Greedy si A* care sa incarce distantele din fisierul salvat de programul de la 3.1 intr-o matrice h si sa le foloseasca apoi unde are nevoie de aproximarile h.
+
+Acestea sunt directiile la care m-am gandit eu, desigur, voi puteti incerca si altele, daca vreti.
+
+❗️ Subliniez ca sa fiu sigur ca s-a inteles: nu se mai folosesc valorile h anterioare, cele care au fost introduse din partea dreapta a hartii.
